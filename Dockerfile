@@ -1,7 +1,7 @@
 
 FROM ubuntu:16.04
 MAINTAINER Sergei Perevoznikov <sperev@bk.ru>
-LABEL Description="Linux Ubuntu 16.04 image for Swift"
+LABEL Description="Linux Ubuntu 16.04 image prepared for swift usage"
 
 # Linux OS utils and libraries
 RUN apt-get update && apt-get dist-upgrade -y && apt-get install -y \
